@@ -7,7 +7,9 @@ import ListScreen from './src/screens/ListScreen';
 import ImageScreen from './src/screens/ImageScreen';
 import CounterScreen from './src/screens/Counter';
 import ColourBlocksScreen from './src/screens/ColorBlocksScreen';
-import ColorGeneratorScreen from './src/screens/ColorGeneratorScreen'
+import ColorGeneratorScreen from './src/screens/ColorGeneratorScreen';
+import ColorGeneratorScreenReducer from './src/screens/ColorGeneratorScreenReducer'
+import PasswordCheckerScreen from './src/screens/PasswordCheckerScreen';
 
 const navigator = createStackNavigator(
   {
@@ -17,7 +19,9 @@ const navigator = createStackNavigator(
     Image: ImageScreen,
     Counter: CounterScreen,
     ColourBlocks: ColourBlocksScreen,
-    ColourGenerator: ColorGeneratorScreen
+    ColourGenerator: ColorGeneratorScreen,
+    ColourGeneratorReducer: ColorGeneratorScreenReducer,
+    PasswordChecker: PasswordCheckerScreen
   },
   {
     initialRouteName: 'Home',

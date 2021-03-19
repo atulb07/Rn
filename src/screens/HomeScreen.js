@@ -44,6 +44,19 @@ const HomeScreen = (props) => {
         onPress={() => { props.navigation.navigate('ColourGenerator') }}
       />
 
+      <Button
+        style={Styles.button}
+        title="Go to Colour Generator with Reducer"
+        onPress={() => { props.navigation.navigate('ColourGeneratorReducer') }}
+      />
+
+
+      <Button
+        style={Styles.button}
+        title="Go to Passsword Checker Screen"
+        onPress={() => { props.navigation.navigate('PasswordChecker') }}
+      />
+
     </View >
 
   );
